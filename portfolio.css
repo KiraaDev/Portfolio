@@ -1,0 +1,336 @@
+*{
+margin: 0px;
+padding: 2px;
+box-sizing: border-box;
+}
+body, html{
+background-color: black;
+height: 180%;
+}
+html {
+    scroll-behavior: smooth;
+}
+nav {
+height: 50px;
+}
+#p1 {
+margin-top: 10px;
+color: white;
+position: absolute;
+font-size: 35px;
+font-family: Arial;
+font-weight: bold;
+}
+ul {
+text-align: right;
+}
+li {
+display: inline-block;
+margin-top: 15px;
+}
+.n1, .n2, .n3, .n4 {
+color: aliceblue;
+text-decoration: none;
+margin: 30px;
+font-size: 15px;
+font-family: arial;
+font-weight: 600;
+padding: 10px;
+transition: background-color .5s;
+}
+.n4:hover {
+background-color: aliceblue;
+color: black;
+font-size: 15px;
+}
+.n3:hover {
+background-color: aliceblue;
+color: black;
+padding: 10px;
+font-size: 15px;
+}
+.n2:hover {
+background-color: aliceblue;
+color: black;
+padding: 10px;
+font-size: 15px;
+}
+.n1:hover {
+background-color: aliceblue;
+color: black;
+padding: 10px;
+font-size: 15px;
+}
+.web {
+color: rgb(209, 23, 116);
+}
+.n5 {
+border: 1px solid rgb(209,23, 116);
+color: rgb(209,23, 116);
+text-decoration: none;
+margin: 10px;
+font-size: 15px;
+font-family: arial;
+font-weight: 600;
+padding: 8px;
+transition: background-color .5s;
+transition: color .5s;
+}
+.n5:hover {
+background-color: rgb(233, 51, 51);
+color: rgb(255, 255, 255);
+}
+#Home {
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+grid-template-areas: none;
+}
+.dream {
+color: white;
+font-weight: bold;
+font-family: Arial;
+margin-top: 540px;
+margin-left: 50px;
+text-align: center;
+}
+.dream1 {
+color: rgb(209,23, 116);
+}
+.p2 {
+font-size: 32px;
+}
+.name {
+color: rgb(209,23, 116);
+}
+.pic1 {
+width: 400px;
+margin-left: 300px;
+}
+.lets-button {
+    color: rgb(209,23, 116);
+    padding: 12px;
+    background: none;
+    border: 1px solid rgb(209,23, 116);
+    margin: 10px;
+    cursor: pointer;
+    transition: transform .8s;
+    font-weight: bold;
+}
+.lets-button:active {
+    transform: scale(0.75);
+}
+.git {
+background-color: rgb(209,23, 116);
+color: rgb(255, 255, 255);
+border-radius: 5px;
+width: 30px;
+}
+.fb {
+background-color: rgb(209,23, 116);
+color: rgb(255, 255, 255);
+font-weight: bold;
+border-radius: 5px;
+width: 30px;
+}
+.insta {
+background-color: rgb(209,23, 116);
+color: rgb(255, 255, 255);
+font-weight: bold;
+border-radius: 5px;
+width: 30px;
+
+}
+img {
+margin: 10px;
+border-radius: 10px;
+}
+.pic2 {
+width: 400px;
+margin-left: 300px;
+margin-top: 100px;
+}
+.p4 {
+margin-top: 440px;
+color: white;
+font-family: Arial;
+font-weight: bold;
+font-size: 20px;
+}
+.p5 {
+margin-top: 10px;
+color: rgb(209,23, 116);
+font-family: Arial;
+font-weight: bold;
+font-size: 15px;
+}
+.p6 {
+margin-top: 10px;
+color: white;
+font-family: Arial;
+font-weight: bold;
+font-size: 13px;
+
+}
+#aboutMe {
+text-align: center; 
+}
+.pp {
+background-color: rgb(133, 125, 125);
+text-align: center;
+color: rgb(255, 255, 255);
+cursor: pointer;
+}
+.pp:hover {
+color: rgb(0, 0, 0);
+background-color: rgb(221, 18, 18);
+}
+#container-services {
+color: rgb(149, 255, 255);
+margin-top: 300px;
+}
+.main-services {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+.pService {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 200px;
+}
+#container-services div {
+    margin: 10px;
+    padding: 100px;
+    height: 310px;
+}
+.s1, .s2, .s3 {
+    border-top: 4px solid rgb(209,23, 116);
+    background-color: rgb(26, 26, 26);
+    font-family: Arial;
+    color: rgb(209,23, 116);
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+.sBtn1, .sBtn2, .sBtn3 {
+    color: rgb(209,23, 116);
+    padding: 12px;
+    background: none;
+    border: 1px solid rgb(209,23, 116);
+    margin: 40px;
+    cursor: pointer;
+    transition: transform .8s;
+    font-weight: bold;
+}
+.sBtn3:active {
+    transform: scale(0.75);
+}
+.sBtn2:active {
+    transform: scale(0.75);
+}
+.sBtn1:active {
+    transform: scale(0.75);
+}
+
+
+#container-project {
+    margin-top: 400px;
+}
+
+.main-project {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    }
+
+.pProject {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 400px;
+}
+#container-project div {
+    margin: 10px;
+    padding: 100px;
+    height: 310px;
+}
+.ppp1, .ppp2, .ppp3 {
+    border-top: 4px solid rgb(209,23, 116);
+    background-color: rgb(27, 27, 27);
+    font-family: Arial;
+    color: rgb(209,23, 116);
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+.pBtn1, .pBtn2, .pBtn3 {
+    color: rgb(209,23, 116);
+    padding: 12px;
+    background: none;
+    border: 1px solid rgb(209,23, 116);
+    margin: 40px;
+    cursor: pointer;
+    transition: transform .8s;
+    font-weight: bold;
+}
+.pBtn3:active {
+    transform: scale(0.75);
+}
+.pBtn2:active {
+    transform: scale(0.75);
+}
+.pBtn1:active {
+    transform: scale(0.75);
+} 
+#main-footer {
+    background-color: rgb(27, 27, 27);
+    margin-top: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+.btn111 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pp1 {
+    color: white;
+    font-weight: bold;
+    font-family: Arial;
+}
+.fBtn {
+    color: rgb(209,23, 116);
+    padding: 12px;
+    background: none;
+    border: 1px solid rgb(209,23, 116);
+    cursor: pointer;
+    transition: transform .8s;
+    font-weight: bold;
+}
+.fBtn:active {
+    transform: scale(0.75);
+}
+.last {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footName {
+    color: white;
+    font-size: 18px;
+    font-family: Arial;
+    font-weight: 600;
+    margin-top: 50px;
+}
+.foot-span {
+    color: rgb(209,23, 116);
+}
